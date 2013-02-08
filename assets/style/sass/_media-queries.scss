@@ -1,0 +1,100 @@
+//first breakpoint
+$first_breakpoint: "max-width: 865px";
+$last_breakpoint: "max-width: 700px";
+
+@media all and ($first_breakpoint) {
+	#aside {
+		width: 75px;
+	}
+
+	.logo .tit-author,
+	.logo .role-author {
+		display: none
+	}
+
+	.menu a {
+		padding-left: 74px;
+		text-indent: -99999px;
+	}
+
+	.menu li:nth-child(1) a {
+		background: url(../images/icons-user.png) no-repeat 20px 40px;
+	}
+	.menu li:nth-child(1) a:hover {
+		background: #333 url(../images/icons-user.png) no-repeat 20px -100px;
+	}
+
+	//second menu
+	.menu li:nth-child(2) a {
+		background: url(../images/icons-article.png) no-repeat 20px 40px;
+	}
+	.menu li:nth-child(2) a:hover, .menu li:nth-child(2) .active {
+		background: #333 url(../images/icons-article.png) no-repeat 20px -90px;
+	}
+
+	//third menu
+	.menu li:nth-child(3) a {
+		background: url(../images/icons-lab.png) no-repeat 20px 40px;
+	}
+	.menu li:nth-child(3) a:hover {
+		background: #333 url(../images/icons-lab.png) no-repeat 20px -87px;
+	}
+
+	#articles-list.active {
+		left: 75px;
+	}
+
+	#content {
+		margin-left: 125px;
+
+		&.active {
+			margin-left: 300px
+		}
+	}
+}
+
+/* last breakpoint */
+@media all and ($last_breakpoint) {
+	#articles-list {
+		display: none;
+	}
+
+	.ui-a-01 {
+		background: rgba(0, 0, 0, 0.1);
+		color: #000;
+		width: 100px;
+		height: 25px;
+		text-align: center;
+		line-height: 25px;
+	}
+
+	#aside {
+		position: static;
+		width: 100%;
+	}
+
+	.logo {
+		margin: 0;
+
+		& .tit-author, 
+		& .role-author {
+			display: block;
+			float: none;
+		}
+	}
+
+	#nav {
+		display: none;
+	}
+
+	#mb-menu {
+		display: block;
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	#content, 
+	#content.active {
+		margin-left: 20px;
+	}
+}

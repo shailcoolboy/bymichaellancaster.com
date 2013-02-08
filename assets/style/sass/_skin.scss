@@ -1,0 +1,173 @@
+/*
+=========================
+UI
+=========================
+*/
+.ui-tit-01 {
+	color: $fc-black;
+	font-size: 1.995em;
+	margin: 0;
+}
+
+.ui-tit-02 {
+	margin: 0;
+	font-size: 0.8125em;
+	color: $fc-black;
+}
+
+.ui-date {
+	font-size: 0.75em;
+	color: #444;
+}
+
+.ui-copy {
+	width: 95%;
+
+	& h2 {
+		font-size: 1.5625em;
+		margin: 20px 0 10px 0;
+	}
+
+	& h3 {
+		font-size: 1.0025em;
+		margin: 15px 0 5px 0;
+	}
+
+	& p {
+		margin: 0 0 5px 0;
+	}
+
+	& p:first-child {
+		margin-top: 35px;
+	}
+
+	.home & p {
+		margin-top: 15px;
+	}
+
+	& a {
+		color: #ee473f;
+		display: inline-block;
+		@include transition(all .2s ease);
+
+		&:hover {
+			@include transform(rotate(-15deg));
+		}
+	}
+
+	& li {
+		list-style: circle;
+		margin: 5px 0 5px 20px;
+	}
+}
+
+.ui-a-01 {
+	font-size: 0.875em;
+	color: #ee473f;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.post {
+	margin: 0 0 35px 0;
+}
+
+.tit-mg { margin: 0 0 10px 0; }
+
+/*
+=========================
+logo
+=========================
+*/
+.logo {
+	padding: 10px;
+
+	& img {
+		border-radius: 50px;
+		box-shadow: 2px 2px 5px #000;
+		margin: 0 12px 0 0;
+		@include transition(all .2s ease);
+	}
+
+	&:hover img {
+		border-radius: 0;
+	}
+
+	& .tit-author {
+		color: $fc-white;
+		margin: 13px 0 0 0;
+		font-size: 15px;
+		@include transition(all .5s ease);
+	}
+
+	&:hover .tit-author {
+		text-shadow: 0 0 2px #fff;
+	}
+
+	& .role-author {
+		font-size: 12px;
+		color: $fc-gray;
+	}
+}
+
+/*
+=========================
+menu
+=========================
+*/
+.menu {
+
+	& li {
+		border-bottom: 1px solid #000;
+	}
+
+	& a {
+		height: 115px;
+		font-size: 14px;
+		color: $fc-gray;
+		text-transform: uppercase;
+		padding: 0 0 0 112px;
+		line-height: 117px;
+		@include transition(all .2s ease);
+	}
+
+	& li a:hover, & li .active, .about & li:nth-child(1) a, .lab & li:nth-child(3) a {
+		color: $fc-white;
+		text-shadow: 0 0 2px #fff;
+	}
+
+	//first menu
+	& li:nth-child(1) a {
+		background: url(../images/icons-user.png) no-repeat 62px 40px;
+	}
+	& li:nth-child(1) a:hover, .about & li:nth-child(1) a {
+		background: #333 url(../images/icons-user.png) no-repeat 62px -100px;
+	}
+
+	//second menu
+	& li:nth-child(2) a {
+		background: url(../images/icons-article.png) no-repeat 62px 40px;
+	}
+	& li:nth-child(2) a:hover, & li:nth-child(2) .active {
+		background: #333 url(../images/icons-article.png) no-repeat 62px -90px;
+	}
+
+	//third menu
+	& li:nth-child(3) a {
+		background: url(../images/icons-lab.png) no-repeat 62px 40px;
+	}
+	& li:nth-child(3) a:hover, .lab & li:nth-child(3) a {
+		background: #333 url(../images/icons-lab.png) no-repeat 62px -87px;
+	}
+
+}
+
+
+
+
+
+
+
+

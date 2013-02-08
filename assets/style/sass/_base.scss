@@ -1,0 +1,42 @@
+// Base
+::selection{ background-color: #fff2a8; color: #000; }
+::moz-selection{ background-color: #fff2a8; color: #000; }
+::webkit-selection{ background-color: #fff2a8; color: #000; }
+
+* {
+	@include box-sizing(border-box);
+}
+
+html {
+	font-size: 16px;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*
+	font-family: 'Nunito', sans-serif;
+*/
+
+body {
+	font-size: 0.75em/1.125em;
+	font-family: 'Nunito', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:active, &:focus {
+		outline: none;
+	}
+}
+
+ul, li { 
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+}
