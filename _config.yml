@@ -22,7 +22,7 @@ category_dir: /
 url: http://bymichaellancaster.com/
 
 # Continue compiling even if there are errors. Keep it true, unless troubleshooting.
-auto: true
+auto: false
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
 # /blog/:year/:month/:day/:title

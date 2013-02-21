@@ -7,6 +7,11 @@
  * @author Craig Campbell
  * @version 1.0.2
  */
+.rainbow {
+    display: block;
+    margin: -20px 0 0 -50px;
+}
+
 pre {
     background: #222;
     word-wrap: break-word;
@@ -61,5 +66,3 @@ pre .support, *[data-language="c"] .function.call {
 pre .variable.global, pre .variable.class, pre .variable.instance {
     color: #FF6400;
 }
-Window size: x 
-Viewport size: x

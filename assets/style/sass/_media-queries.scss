@@ -1,7 +1,17 @@
 //first breakpoint
+$git_breakpoint: "max-width: 1219px";
 $first_breakpoint: "max-width: 865px";
 $last_breakpoint: "max-width: 700px";
 
+// Github repository breakpoint
+@media all and ($git_breakpoint) {
+	.github-box {
+		width: 90%;
+		float: none;
+	}
+}
+
+//First content breakpoint
 @media all and ($first_breakpoint) {
 	#aside {
 		width: 75px;
@@ -20,7 +30,7 @@ $last_breakpoint: "max-width: 700px";
 	.menu li:nth-child(1) a {
 		background: url(../images/icons-user.png) no-repeat 20px 40px;
 	}
-	.menu li:nth-child(1) a:hover {
+	.menu li:nth-child(1) a:hover, .about .menu li:nth-child(1) a {
 		background: #333 url(../images/icons-user.png) no-repeat 20px -100px;
 	}
 
@@ -36,7 +46,7 @@ $last_breakpoint: "max-width: 700px";
 	.menu li:nth-child(3) a {
 		background: url(../images/icons-lab.png) no-repeat 20px 40px;
 	}
-	.menu li:nth-child(3) a:hover {
+	.menu li:nth-child(3) a:hover, .lab .menu li:nth-child(3) a {
 		background: #333 url(../images/icons-lab.png) no-repeat 20px -87px;
 	}
 
@@ -53,9 +63,10 @@ $last_breakpoint: "max-width: 700px";
 	}
 }
 
-/* last breakpoint */
+// Last content breakpoint
 @media all and ($last_breakpoint) {
-	#articles-list {
+	#articles-list, 
+	#nav {
 		display: none;
 	}
 
@@ -81,10 +92,6 @@ $last_breakpoint: "max-width: 700px";
 			display: block;
 			float: none;
 		}
-	}
-
-	#nav {
-		display: none;
 	}
 
 	#mb-menu {

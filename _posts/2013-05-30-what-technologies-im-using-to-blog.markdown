@@ -13,7 +13,7 @@ I agree it is a good CMS/Blog Tool that helps us delivery great products in shor
 <p>
 I started looking for something more elegant that I could use git to deploy
 So I tried Github Pages and Jekyll a "blog-aware, static site generator in Ruby" that uses Liquid template to process the templates.
-But I would do experiments with Node.js and Ruby someday so I choose <a href="http://www.heroku.com" title="Heroku" target="_blank">Heroku</a> is a cloud application platform for build, deploy, and run cloud apps using Ruby, Node.js, Clojure, Java, Python and Scala.
+But I would do experiments with Node.js and Ruby someday so I choose <a href="http://www.heroku.com" title="Heroku" target="_blank">Heroku</a> (cloud application platform for build, deploy, and run cloud apps using Ruby, Node.js, Clojure, Java, Python and Scala).
 </p>
 
 I Can run and test locally, pretty simple.
