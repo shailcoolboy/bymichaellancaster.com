@@ -43,7 +43,8 @@ UI
 		margin: 0 0 25px 0;
 	}
 
-	& p:first-child {
+	& p:first-child, 
+	& h2:first-child {
 		margin-top: 35px;
 	}
 
