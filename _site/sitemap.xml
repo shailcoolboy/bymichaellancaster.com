@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+      <loc>http://bymichaellancaster.com/blog/secrets-of-lea-verou-css</loc>
+      <lastmod>2013-03-03</lastmod>
+      <changefreq>never</changefreq>
+  </url>
+  <url>
+      <loc>http://bymichaellancaster.com/blog/inspirational-art-and-code-by-joshua-davis</loc>
+      <lastmod>2013-02-28</lastmod>
+      <changefreq>never</changefreq>
+  </url>
+  <url>
+      <loc>http://bymichaellancaster.com/blog/the-filter-bubble-and-your-social-life-online</loc>
+      <lastmod>2013-02-27</lastmod>
+      <changefreq>never</changefreq>
+  </url>
+  <url>
+      <loc>http://bymichaellancaster.com/blog/lets-talk-about-rem-units</loc>
+      <lastmod>2013-02-26</lastmod>
+      <changefreq>never</changefreq>
+  </url>
+  <url>
+      <loc>http://bymichaellancaster.com/blog/two-years-ago-everything-started</loc>
+      <lastmod>2013-02-25</lastmod>
+      <changefreq>never</changefreq>
+  </url>
+  <url>
       <loc>http://bymichaellancaster.com/blog/what-technologies-im-using-to-blog</loc>
-      <lastmod>2013-05-30</lastmod>
+      <lastmod>2013-01-30</lastmod>
       <changefreq>never</changefreq>
   </url>
   <url>

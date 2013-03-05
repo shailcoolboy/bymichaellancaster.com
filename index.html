@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
 
-{% for post in site.posts limit: 5  %}
+{% for post in site.posts limit: 5 %}
 	
 	<article class="post">
 
-		<h2 class="ui-tit-01">{{ post.title }}</h2>
+		<h2 class="ui-tit-01"><a href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
 		<span class="ui-date db">{{ post.date | date_to_string }}</span>
 	
 		<div class="ui-copy">

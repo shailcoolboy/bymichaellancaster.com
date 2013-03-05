@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First things first
+title: First things first.
 
 excerpt: Hi there! This is my first post at all and I will try explain shortly why I decided to change my portfolio to a hybrid?!.
 ---
